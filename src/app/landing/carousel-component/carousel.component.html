@@ -1,0 +1,3 @@
+<body class="h-full mr-0 overflow-hidden">
+<img *ngFor="let image of images; let i = index" [src]="image" [class.active]="i === currentImageIndex" class="absolute top-0 left-0 w-full h-full object-cover -z-10" alt="foto">
+</body>
